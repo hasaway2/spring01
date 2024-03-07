@@ -18,6 +18,19 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- jstl -->
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+		</dependency>
 		<!-- 스프링부트는 jsp를 지원하지 않는다. jsp 지원을 위한 내장 톰캣 확장 -->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>

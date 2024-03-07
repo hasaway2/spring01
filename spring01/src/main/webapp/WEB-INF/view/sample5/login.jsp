@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/sample3/login" method="post">
+	<form action="/sample5/login" method="post">
 	  <div class="mb-3 mt-3">
 	    <label for="val1" class="form-label">아이디:</label>
 	    <input type="text" class="form-control" id="username" placeholder="아이디..." name="username">
